@@ -17,7 +17,7 @@ fieldset{
     width: 400px;
 }
 
-#senerioridade{
+#senioridade{
     color: white;
     background: #242425;
     padding: 6px;
@@ -25,7 +25,7 @@ fieldset{
     border-radius: 6px;
 }
 
-#senerioridade:hover{
+#senioridade:hover{
     color: white;
     background: #424246;
     padding: 6px;
