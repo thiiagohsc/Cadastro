@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+body{
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #1A191E;
+}
+
+.campo{
+    margin-bottom: 12px;
+}
+
+.sobre{
+    margin-top: 19px;
+}
+
+textarea{
+    width: 16rem;
+    height: 6rem;
+
+}
+
+fieldset{
+    width: 400px;
+}
