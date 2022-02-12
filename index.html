@@ -11,7 +11,7 @@
     <section>
             <header>
                 <img src="./imagens/logo.jpeg" alt="LOGO" width="200px">
-                <h1>CADASTRE-SE</h1>
+                <h1 id="cadastre-se">CADASTRE-SE</h1>
                 <h4>COMPLETE SEU CADASTRO</h4>
             </header>
 
@@ -20,25 +20,25 @@
                 <div class="campo">
                     <label for="nome" >NOME:</label>
                     <br>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" placeholder="DIGITE SEU NOME" required>
                 </div>
 
                 <div class="campo">
                     <label for="sobrenome" id="teste">SOBRENOME:</label>
                     <br>
-                    <input type="text" name="sobrenome" id="sobrenome">
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="DIGITE SEU SOBRENOME" required>
                 </div>
 
                 <div class="campo">
                     <label for="email">E-MAIL:</label>
                     <br>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="DIGITE SEU E-MAIL" required>
                 </div>
 
                 <div class="campo">
                     <label for="tel">TELEFONE:</label>
                     <br>
-                    <input type="tel" name="tel" id="tel">
+                    <input type="tel" name="tel" id="tel" placeholder="(81) 99800-1108" required>
                 </div>
 
                 <div>
@@ -52,7 +52,7 @@
 
                 <div>
                     <h4>SENERIORIDADE</h4>
-                    <select name="senerioridade" id="senerioridade">
+                    <select name="senerioridade" id="senerioridade" required> 
                         <option value="">SELECIONE</option>
                         <option>JUNIOR</option>
                         <option>PLENO</option>
@@ -60,9 +60,9 @@
                     </select>
                 </div>
                 
-                <div class="sobre">
+                <div>
                     <h4>CONTE UM POUCO SOBRE VOCÊ</h4>
-                    <textarea></textarea>
+                    <textarea required></textarea>
                 </div>
                 <br>
                 <button type="submit">CONCLUÍDO</button>
