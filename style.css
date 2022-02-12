@@ -13,17 +13,46 @@ body{
     margin-bottom: 12px;
 }
 
-.sobre{
-    margin-top: 19px;
+fieldset{
+    width: 400px;
+}
+
+#senerioridade{
+    color: white;
+    background: #242425;
+    padding: 6px;
+    font-family: 'Signika', sans-serif;
+    border-radius: 6px;
+}
+
+#senerioridade:hover{
+    color: white;
+    background: #424246;
+    padding: 6px;
+    font-family: 'Signika', sans-serif;
+    cursor: pointer;
 }
 
 textarea{
     width: 16rem;
     height: 6rem;
-    resize: none
+    resize: none;
 
 }
 
-fieldset{
-    width: 400px;
+button{
+    color: white;
+    background: #242425;
+    padding: 6px;
+    font-family: 'Signika', sans-serif;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+button:hover{
+    color: white;
+    background: #424246;
+    padding: 6px;
+    font-family: 'Signika', sans-serif;
+    cursor: pointer;
 }
