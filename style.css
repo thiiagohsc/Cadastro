@@ -9,12 +9,16 @@ body{
     background-color: #1A191E;
 }
 
+fieldset{
+    width: 400px;
+}
+
 .campo{
     margin-bottom: 12px;
 }
 
-fieldset{
-    width: 400px;
+.lado:hover, .tecnologia:hover {
+    color: yellow;
 }
 
 #senioridade{
