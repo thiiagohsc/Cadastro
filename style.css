@@ -20,6 +20,7 @@ body{
 textarea{
     width: 16rem;
     height: 6rem;
+    resize: none
 
 }
 
