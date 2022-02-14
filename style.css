@@ -17,6 +17,10 @@ fieldset{
     margin-bottom: 12px;
 }
 
+#nome, #sobrenome, #email, #tel{
+    border-radius: 6px;
+}
+
 .lado:hover, .tecnologia:hover {
     color: yellow;
 }
